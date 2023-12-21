@@ -49,3 +49,6 @@ rhino.local.properties
 !defaultconfigs/electrodynamics_ore_config.txt
 !defaultconfigs/ftbessentials-server.snbt
 !defaultconfigs/immersiveengineering-server.toml
+
+!kubejs/server*
+!kubejs/asset*

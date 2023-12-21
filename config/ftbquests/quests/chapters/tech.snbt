@@ -4,7 +4,57 @@
 	filename: "tech"
 	group: ""
 	id: "46FAD73BA593660F"
-	order_index: 1
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.75d
+			hover: [ ]
+			image: "kubejs:textures/tier_1.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.75d
+			hover: [ ]
+			image: "kubejs:textures/tier_2.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.75d
+			hover: [ ]
+			image: "kubejs:textures/tier_3.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.75d
+			hover: [ ]
+			image: "kubejs:textures/tier_4.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -3.5d
+			y: 6.0d
+		}
+	]
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -17,11 +67,14 @@
 				type: "checkmark"
 			}]
 			title: "Thermal"
-			x: -4.0d
-			y: 0.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["53D535E2658F6F28"]
+			dependencies: [
+				"53D535E2658F6F28"
+				"0F71555971A38770"
+			]
 			icon: {
 				Count: 1b
 				id: "ad_astra:tier_1_rocket"
@@ -30,25 +83,20 @@
 				}
 			}
 			id: "20D6C4CF8CFE9B4A"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "13EC2163A7F980F5"
 				type: "checkmark"
 			}]
 			title: "Ad astra"
-			x: -4.0d
-			y: 1.5d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
-			id: "1BDE3244E902A0CF"
-			tasks: [{
-				id: "1F7F8BE45F997D1C"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["59E9C53C53F1EDAE"]
+			dependencies: [
+				"59E9C53C53F1EDAE"
+				"0A9A35F8C9CF7B41"
+			]
 			icon: "create:cogwheel"
 			id: "025446CA73C1A91B"
 			optional: true
@@ -58,19 +106,23 @@
 				type: "checkmark"
 			}]
 			title: "Create"
-			x: -4.0d
-			y: -1.5d
+			x: -4.5d
+			y: -3.0d
 		}
 		{
-			dependencies: ["4DB7B7BF2B025AF0"]
+			dependencies: [
+				"4DB7B7BF2B025AF0"
+				"0A9A35F8C9CF7B41"
+			]
 			icon: "electrodynamics:electricfurnace"
 			id: "6CE15168012CD363"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "0F58668CBE78932D"
 				title: "Electro dynamics"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
@@ -89,31 +141,175 @@
 				title: "Immersive Engeering"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: 0.0d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0F71555971A38770"]
 			icon: "dynamicelectricity:motorachv"
 			id: "4DB7B7BF2B025AF0"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "30D778E863207062"
 				title: "Dynamics Electricity"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -0.5d
+			x: -2.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["6CE15168012CD363"]
 			icon: "ballistix:missilelongrange"
 			id: "53D535E2658F6F28"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "078EA6BB087ECD3B"
 				title: "Ballistix"
 				type: "checkmark"
 			}]
 			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["20D6C4CF8CFE9B4A"]
+			icon: "ae2:controller"
+			id: "4ED2FA506B6C2945"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "360ED65B3FC22E76"
+				title: "Applied Energistics"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6CE15168012CD363"]
+			icon: "blastcraft:blastproofwalling"
+			id: "1C202811FE508F7B"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "40B1E0E81EBEE93C"
+				title: "Blastcraft"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CE15168012CD363"]
+			icon: "nuclearscience:nuclearboiler"
+			id: "4F4C8E47EABFB7EA"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "0C58C593636DD275"
+				title: "Nuclear Science"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["59E9C53C53F1EDAE"]
+			icon: "immersivepetroleum:oil_can"
+			id: "06637CEEC586FBCF"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "2403885F3768A58E"
+				title: "Immersive Petroleum"
+				type: "checkmark"
+			}]
+			x: -7.0d
 			y: 0.0d
+		}
+		{
+			id: "0A9A35F8C9CF7B41"
+			tasks: [{
+				id: "28937D59D8E9F289"
+				title: "Start"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["025446CA73C1A91B"]
+			icon: "createindustry:gasoline_engine"
+			id: "3A7F57926C8C17BF"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "5D1389B4E8852C36"
+				title: "The Factory Must Grow"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3A7F57926C8C17BF"]
+			icon: {
+				Count: 1b
+				id: "automobility:automobile"
+				tag: {
+					Automobile: {
+						engine: "automobility:stone"
+						frame: "automobility:wooden_motorcar"
+						isPrefab: 1b
+						wheels: "automobility:carriage"
+					}
+					display: {
+						Name: "{\"translate\":\"prefab.automobility.wooden_motorcar\",\"italic\":\"false\"}"
+					}
+				}
+			}
+			id: "55EBB603FCFD043C"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1F021828D0AC65E3"
+				title: "Automobility"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55EBB603FCFD043C"]
+			icon: "trajanstanks:t34_item"
+			id: "4BCA9DC7883FE6A9"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7366891C3BFFAB69"
+				title: "Trajan Core"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F71555971A38770"]
+			icon: "nuclearcraft:fission_reactor_controller"
+			id: "09D8FD504ADF10F7"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1B54D8BD551459C5"
+				title: "NuclearCraft"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["025446CA73C1A91B"]
+			icon: "createbigcannons:cannon_mount"
+			id: "142AB529924F9D68"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "375BA6BA04C8E452"
+				title: "Create: Big cannon"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
 		}
 	]
 	title: "Tech"
