@@ -6,6 +6,121 @@
 	id: "5C8527C44F45730B"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["3212DE329913CDE2"]
+			icon: "minecraft:ancient_debris"
+			id: "383ABBDF5E3E1279"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "2ADB8DBA955DAEEF"
+				title: "Ancient debris"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			icon: "geolosys:ancient_debris_ore_sample"
+			id: "3212DE329913CDE2"
+			tasks: [{
+				id: "2675B88FF255FCD5"
+				title: "Ancient Debris Sample"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["383ABBDF5E3E1279"]
+			icon: "minecraft:netherite_ingot"
+			id: "6877BD9A95F44B3A"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "6CB2184975D2DAA1"
+				title: "Netherite"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["040F47DA91ABAF17"]
+			icon: "immersiveengineering:ore_aluminum"
+			id: "77E149A04AAF041D"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "11767797158C1166"
+				title: "Bauxite"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			icon: "geolosys:bauxite_ore_sample"
+			id: "040F47DA91ABAF17"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "59B24A51E4B7C202"
+				title: "Bauxite Sample"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77E149A04AAF041D"]
+			icon: "immersiveengineering:ingot_aluminum"
+			id: "3668EF2261ED1FA0"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "3D75365548B2F0FD"
+				title: "Aluminium"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: "geolosys:lignite_ore_sample"
+			id: "49E3A1F6D1FE01C9"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "0544B977D8012E44"
+				title: "Lignite Sample"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49E3A1F6D1FE01C9"]
+			icon: "nuclearcraft:boron_ore"
+			id: "2CD1C2FAB14D2F4C"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "0F3E02924D96BDFB"
+				title: "Boron"
+				type: "checkmark"
+			}]
+			title: "Boron Ore"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2CD1C2FAB14D2F4C"]
+			icon: "nuclearcraft:boron_ingot"
+			id: "0C02CA4649074B62"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "51C80AD7CC5E114D"
+				title: "Boron"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
 	title: "Ore"
 }

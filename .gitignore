@@ -44,6 +44,7 @@ rhino.local.properties
 !config/modernfix-mixins.properties
 !config/embeddium-options.json
 !config/dynamiclights_*
+config/geolosys-common.toml
 
 !defaultconfigs/ftbchunks
 !defaultconfigs/electrodynamics_ore_config.txt

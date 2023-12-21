@@ -24,7 +24,7 @@
         }]
       },
       "samples": [{
-        "block": "geolosys:teallite_ore_sample",
+        "block": "geolosys:sphalerite_ore_sample",
         "chance": 1.0
       }],
       "generationWeight": 25

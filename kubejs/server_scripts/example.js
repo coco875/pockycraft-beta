@@ -286,5 +286,18 @@ ServerEvents.recipes(event => {
             T: 'thermal:nickel_block'
         }
     )
+
+    event.shaped(
+        Item.of('geolosys:prospectors_pick')
+        [
+            'III',
+            '  S',
+            '  S'
+        ],
+        {
+            I: '#forge:ingots',
+            S: 'minecraft:stick'
+        }
+    )
 })
   

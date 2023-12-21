@@ -10,6 +10,7 @@
 		{
 			icon: "sophisticatedbackpacks:backpack"
 			id: "4C96D1B89CD758CD"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "4987236D70B9FA71"
 				type: "checkmark"
@@ -28,6 +29,7 @@
 				}
 			}
 			id: "70D0D2B629751908"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "49A43C0153633C06"
 				type: "checkmark"
@@ -40,6 +42,7 @@
 			dependencies: ["70D0D2B629751908"]
 			icon: "storageracks:oak_wood_rack"
 			id: "0A50060C1800FBEA"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "72D16E719F896694"
 				type: "checkmark"
@@ -52,6 +55,7 @@
 			dependencies: ["0A50060C1800FBEA"]
 			icon: "ae2:controller"
 			id: "02CC8C34C2585100"
+			progression_mode: "flexible"
 			tasks: [{
 				id: "29AF9BE7055BBD65"
 				type: "checkmark"

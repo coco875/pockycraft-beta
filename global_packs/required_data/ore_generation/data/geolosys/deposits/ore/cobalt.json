@@ -1,8 +1,8 @@
 {
     "type": "geolosys:deposit_layer",
     "config": {
-      "yMin": -64,
-      "yMax": 250,
+      "yMin": -32,
+      "yMax": 0,
       "radius": 64,
       "depth": 32,
       "biomeTag": "#geolosys:all_dimensions",

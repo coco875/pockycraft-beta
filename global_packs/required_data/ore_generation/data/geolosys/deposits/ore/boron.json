@@ -9,14 +9,14 @@
       "blockStateMatchers": [ "minecraft:stone" ],
       "blocks": {
         "default": [{
-          "block": "thermal:niter_ore",
+          "block": "nuclearcraft:boron_ore",
           "chance": 0.3
         },{
           "block": null,
           "chance": 0.7
         }],
         "minecraft:deepslate": [{
-          "block": "thermal:deepslate_niter_ore",
+          "block": "nuclearcraft:boron_deepslate_ore",
           "chance": 0.3
         },{
           "block": null,
