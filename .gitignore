@@ -31,4 +31,21 @@ rhino.local.properties
 
 !mods/*.jar
 !global_packs/required_data
-# !config\servercore.toml
+
+!config/servercore.toml
+!config/ftbquests
+!config/ae2
+!config/create-common.toml
+!config/trajanscore-config.toml
+!config/tombstone-common.toml
+!config/darkness.properties
+!config/theoneprobe-*
+!config/nuclearcraft-common.toml
+!config/modernfix-mixins.properties
+!config/embeddium-options.json
+!config/dynamiclights_*
+
+!defaultconfigs/ftbchunks
+!defaultconfigs/electrodynamics_ore_config.txt
+!defaultconfigs/ftbessentials-server.snbt
+!defaultconfigs/immersiveengineering-server.toml

@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech"
+	group: ""
+	id: "46FAD73BA593660F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["025446CA73C1A91B"]
+			icon: "thermal:machine_furnace"
+			id: "0F71555971A38770"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "15E2FCC9C09828A7"
+				type: "checkmark"
+			}]
+			title: "Thermal"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53D535E2658F6F28"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "20D6C4CF8CFE9B4A"
+			tasks: [{
+				id: "13EC2163A7F980F5"
+				type: "checkmark"
+			}]
+			title: "Ad astra"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "1BDE3244E902A0CF"
+			tasks: [{
+				id: "1F7F8BE45F997D1C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59E9C53C53F1EDAE"]
+			icon: "create:cogwheel"
+			id: "025446CA73C1A91B"
+			optional: true
+			progression_mode: "flexible"
+			tasks: [{
+				id: "314965B343E3FACA"
+				type: "checkmark"
+			}]
+			title: "Create"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DB7B7BF2B025AF0"]
+			icon: "electrodynamics:electricfurnace"
+			id: "6CE15168012CD363"
+			tasks: [{
+				id: "0F58668CBE78932D"
+				title: "Electro dynamics"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59E9C53C53F1EDAE"
+			optional: true
+			progression_mode: "flexible"
+			tasks: [{
+				id: "48FA1D0D0A9CE63F"
+				title: "Immersive Engeering"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F71555971A38770"]
+			icon: "dynamicelectricity:motorachv"
+			id: "4DB7B7BF2B025AF0"
+			tasks: [{
+				id: "30D778E863207062"
+				title: "Dynamics Electricity"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			icon: "ballistix:missilelongrange"
+			id: "53D535E2658F6F28"
+			tasks: [{
+				id: "078EA6BB087ECD3B"
+				title: "Ballistix"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Tech"
+}
