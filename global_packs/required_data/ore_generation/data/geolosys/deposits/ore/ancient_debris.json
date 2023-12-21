@@ -1,0 +1,22 @@
+{
+    "type": "geolosys:deposit_sparse",
+    "config": {
+      "yMin": -32,
+      "yMax": 0,
+      "size": 32,
+      "spread": 32,
+      "biomeTag": "#geolosys:all_dimensions",
+      "blockStateMatchers": [ "minecraft:stone" ],
+      "blocks": {
+        "default": [{
+          "block": "minecraft:ancient_debris",
+          "chance": 1.0
+        }]
+      },
+      "samples": [{
+        "block": "geolosys:ancient_debris_ore_sample",
+        "chance": 1.0
+      }],
+      "generationWeight": 5
+    }
+  }

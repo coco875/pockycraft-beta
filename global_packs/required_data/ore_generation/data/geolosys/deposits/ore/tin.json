@@ -1,0 +1,32 @@
+{
+    "type": "geolosys:deposit_layer",
+    "config": {
+      "yMin": -64,
+      "yMax": 250,
+      "radius": 64,
+      "depth": 32,
+      "biomeTag": "#geolosys:all_dimensions",
+      "blockStateMatchers": [ "minecraft:stone" ],
+      "blocks": {
+        "default": [{
+          "block": "thremal:tin_ore",
+          "chance": 0.3
+        },{
+          "block": null,
+          "chance": 0.7
+        }],
+        "minecraft:deepslate": [{
+          "block": "thremal:deepslate_tin_ore",
+          "chance": 0.3
+        },{
+          "block": null,
+          "chance": 0.7
+        }]
+      },
+      "samples": [{
+        "block": "geolosys:teallite_ore_sample",
+        "chance": 1.0
+      }],
+      "generationWeight": 64
+    }
+  }
