@@ -32,19 +32,19 @@ rhino.local.properties
 !mods/*.jar
 !global_packs/required_data
 
-!config/servercore.toml
-!config/ftbquests
 !config/ae2
 !config/create-common.toml
-!config/trajanscore-config.toml
-!config/tombstone-common.toml
 !config/darkness.properties
-!config/theoneprobe-*
-!config/nuclearcraft-common.toml
-!config/modernfix-mixins.properties
-!config/embeddium-options.json
 !config/dynamiclights_*
-config/geolosys-common.toml
+!config/embeddium-options.json
+!config/ftbquests
+!config/geolosys-common.toml
+!config/modernfix-mixins.properties
+!config/nuclearcraft-common.toml
+!config/servercore.toml
+!config/theoneprobe-*
+!config/tombstone-common.toml
+!config/trajanscore-config.toml
 
 !defaultconfigs/ftbchunks
 !defaultconfigs/electrodynamics_ore_config.txt
