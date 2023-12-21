@@ -43,6 +43,7 @@ rhino.local.properties
 !config/nuclearcraft-common.toml
 !config/servercore.toml
 !config/theoneprobe-*
+!config/thermal-common.toml
 !config/tombstone-common.toml
 !config/trajanscore-config.toml
 
