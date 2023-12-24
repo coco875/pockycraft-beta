@@ -299,5 +299,7 @@ ServerEvents.recipes(event => {
             S: 'minecraft:stick'
         }
     )
+
+    event.remove({ output: 'immersiveengineering:cloche' })
 })
   
