@@ -28,6 +28,7 @@ global_packs/*
 localconfigs/*
 options.txt
 rhino.local.properties
+immersive*
 
 !mods/*.jar
 !global_packs/required_data

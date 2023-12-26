@@ -4,6 +4,56 @@
 	filename: "ore"
 	group: ""
 	id: "5C8527C44F45730B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "kubejs:textures/tier_1.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "kubejs:textures/tier_2.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "kubejs:textures/tier_3.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 3.5d
+			y: 15.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "kubejs:textures/tier_4.png"
+			rotation: 0.0d
+			width: 18.0d
+			x: 3.5d
+			y: 21.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -17,8 +67,8 @@
 				title: "Ancient debris"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -3.5d
+			x: 15.5d
+			y: 21.5d
 		}
 		{
 			icon: "geolosys:ancient_debris_ore_sample"
@@ -28,8 +78,8 @@
 				title: "Ancient Debris Sample"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: -3.5d
+			x: 15.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["383ABBDF5E3E1279"]
@@ -41,8 +91,8 @@
 				title: "Netherite"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: 15.5d
+			y: 23.0d
 		}
 		{
 			dependencies: ["040F47DA91ABAF17"]
@@ -54,8 +104,8 @@
 				title: "Bauxite"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -0.5d
+			y: 13.0d
 		}
 		{
 			icon: "geolosys:bauxite_ore_sample"
@@ -66,8 +116,8 @@
 				title: "Bauxite Sample"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: -2.5d
+			x: -0.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["77E149A04AAF041D"]
@@ -79,8 +129,8 @@
 				title: "Aluminium"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -0.5d
+			y: 14.5d
 		}
 		{
 			icon: "geolosys:lignite_ore_sample"
@@ -91,8 +141,8 @@
 				title: "Lignite Sample"
 				type: "checkmark"
 			}]
-			x: -9.0d
-			y: -1.5d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["49E3A1F6D1FE01C9"]
@@ -104,9 +154,9 @@
 				title: "Boron"
 				type: "checkmark"
 			}]
-			title: "Boron Ore"
-			x: -3.5d
-			y: -1.5d
+			title: "Boron"
+			x: 4.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2CD1C2FAB14D2F4C"]
@@ -118,8 +168,904 @@
 				title: "Boron"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0B73F5837913AD9E"]
+			icon: "electrodynamics:orechromite"
+			id: "199F843CDB8F111D"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "08E2D4609B243CCD"
+				title: "Chromite"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["199F843CDB8F111D"]
+			icon: "electrodynamics:ingotchromium"
+			id: "046A55934729B300"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1A69053B9C16221A"
+				title: "Chrome"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 23.5d
+		}
+		{
+			icon: "geolosys:galena_ore_sample"
+			id: "0B73F5837913AD9E"
+			tasks: [{
+				id: "7B63D4DB17ACF4C9"
+				title: "Galena sample"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: -4.0d
+		}
+		{
+			icon: "geolosys:cinnabar_ore_sample"
+			id: "5521D93FD610EA33"
+			tasks: [{
+				id: "4B9494349A49B0EA"
+				title: "Cinnabar sample"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5521D93FD610EA33"]
+			icon: "thermal:cinnabar_ore"
+			id: "11AA5F44524A3005"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "40BD5351D1491BDA"
+				title: "Cinnabar"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["11AA5F44524A3005"]
+			icon: "thermal:cinnabar"
+			id: "6C374A471F45BF6E"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "3CDBA4008DEE5CBE"
+				title: "Cinnabar"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			icon: "geolosys:coal_ore_sample"
+			id: "43719FE829577BAA"
+			tasks: [{
+				id: "48843960058DA45D"
+				title: "Coal sample"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43719FE829577BAA"]
+			icon: "minecraft:coal_ore"
+			id: "634F52DF1C01207A"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7D7ED5C702BDAAF3"
+				title: "Coal"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["634F52DF1C01207A"]
+			icon: "minecraft:coal"
+			id: "4EA57E0BFFE072EA"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "27DAFD31C23FE73D"
+				title: "Coal"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3EE15A59EAE09D4D"]
+			icon: "nuclearcraft:cobalt_ore"
+			id: "2AE04EE4715B501D"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1D3BCBBE36615A1F"
+				title: "Cobalt"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 21.5d
+		}
+		{
+			icon: "geolosys:azurite_ore_sample"
+			id: "3EE15A59EAE09D4D"
+			tasks: [{
+				id: "3A9F8D2682209A4E"
+				title: "Azurite sample"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AE04EE4715B501D"]
+			icon: "nuclearcraft:cobalt_ingot"
+			id: "41B49117BF2ED821"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "549C22D04C78C5A7"
+				title: "Cobalt"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 23.0d
+		}
+		{
+			icon: "geolosys:malachite_ore_sample"
+			id: "1760478E3851ADF1"
+			tasks: [{
+				id: "5341FC10B0767B32"
+				title: "Malachite sample"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1760478E3851ADF1"]
+			icon: "minecraft:copper_ore"
+			id: "6C9B01B9B05363E1"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7EAE24FAFD5859C1"
+				title: "Copper"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C9B01B9B05363E1"]
+			icon: "minecraft:copper_ingot"
+			id: "385F9882BC63B7A3"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "6718EE3DEED31713"
+				title: "Copper"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			icon: "geolosys:kimberlite_ore_sample"
+			id: "1CC5F5BAC81ACD90"
+			tasks: [{
+				id: "06CCE00E9CF940F6"
+				title: "Kimberlite sample"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CC5F5BAC81ACD90"]
+			icon: "minecraft:diamond_ore"
+			id: "1C46DDDE42D8650E"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "5BF47D8134505151"
+				title: "Diamond"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1C46DDDE42D8650E"]
+			icon: "minecraft:diamond"
+			id: "19650C814BFECA38"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "3EE01BF1C3253F9E"
+				title: "Diamond"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 23.0d
+		}
+		{
+			icon: "geolosys:beryl_ore_sample"
+			id: "7BCD538E85539837"
+			tasks: [{
+				id: "4612BCF1775F5C7B"
+				title: "Beryl sample"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BCD538E85539837"]
+			icon: "minecraft:emerald_ore"
+			id: "1A6C12A0E4DE13FC"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "611FB53F2036C8E2"
+				title: "Emerald"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1A6C12A0E4DE13FC"]
+			icon: "minecraft:emerald"
+			id: "76B081AB73AF8600"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1988C62881918910"
+				title: "Emerald"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 23.0d
+		}
+		{
+			icon: "geolosys:gold_ore_sample"
+			id: "741D4C271330E724"
+			tasks: [{
+				id: "12A959DE32D12012"
+				title: "Gold sample"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["741D4C271330E724"]
+			icon: "minecraft:gold_ore"
+			id: "072AF93920D8F9A7"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "02F6A98DD926A94F"
+				title: "Gold"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["072AF93920D8F9A7"]
+			icon: "minecraft:gold_ingot"
+			id: "33C53667EF053213"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "12F65B21DF726B8A"
+				title: "Gold"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 18.0d
+		}
+		{
+			icon: "geolosys:hematite_ore_sample"
+			id: "61B6730F5ADDBC46"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "6789A423D53BFD26"
+				title: "Hematite sample"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61B6730F5ADDBC46"]
+			icon: "minecraft:iron_ore"
+			id: "34FD1AE728AD8F87"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "21631247120D8F2C"
+				title: "Iron"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34FD1AE728AD8F87"]
+			icon: "minecraft:iron_ingot"
+			id: "322BDBFAB5CC7C53"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "39DF11A1BF6B8098"
+				title: "Iron"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			icon: "geolosys:lapis_ore_sample"
+			id: "18126B3BF86B8BFD"
+			tasks: [{
+				id: "703E38486094AE4B"
+				title: "Lapis sampel"
+				type: "checkmark"
+			}]
+			title: "Lapis sample"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18126B3BF86B8BFD"]
+			icon: "minecraft:lapis_ore"
+			id: "5B653D17953D26E1"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "474A1A3C4E7668CB"
+				title: "Lapis"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5B653D17953D26E1"]
+			icon: "minecraft:lapis_lazuli"
+			id: "460459CB5A14B340"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "76EBD85F05EBB20F"
+				title: "Lapis Lazuli"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0B73F5837913AD9E"]
+			icon: "thermal:lead_ore"
+			id: "27B8E3101D7B9659"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "061CCFF8EB2B399F"
+				title: "Lead"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["27B8E3101D7B9659"]
+			icon: "thermal:lead_ingot"
+			id: "56B0925FEE25CD25"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "5D75F5E45BF106C6"
+				title: "Lead"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 14.0d
+		}
+		{
+			icon: "geolosys:platinum_ore_sample"
+			id: "6DD91E86D12BB475"
+			tasks: [{
+				id: "2A39EB4E444DDD8A"
+				title: "Platinium sample"
+				type: "checkmark"
+			}]
+			title: "Platinum sample"
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6DD91E86D12BB475"]
+			icon: "nuclearcraft:lithium_ore"
+			id: "13BCBBC4645552E2"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "70F6965A7FD5B26F"
+				title: "Lithium"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["13BCBBC4645552E2"]
+			icon: "nuclearcraft:lithium_ingot"
+			id: "7A80C58BBA767C67"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "022EF35EBB847013"
+				title: "Lithium"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6DD91E86D12BB475"]
+			icon: "nuclearcraft:magnesium_ore"
+			id: "6FE0D1A75C39296B"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "48C669CAB06E3FA3"
+				title: "Magnesium"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6FE0D1A75C39296B"]
+			icon: "nuclearcraft:magnesium_ingot"
+			id: "4C455F1ED3874C47"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "43F656D980DAE67D"
+				title: "Magnesium"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1760478E3851ADF1"]
+			icon: "electrodynamics:oremolybdenum"
+			id: "2688FF7499C003C3"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "4E88FF676CB66915"
+				title: "Molybdenum"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2688FF7499C003C3"]
+			icon: "electrodynamics:ingotmolybdenum"
+			id: "4374FD1E7413CA4E"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "7864F319C193CCB4"
+				title: "Molybdenum"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0B73F5837913AD9E"]
+			icon: "thermal:nickel_ore"
+			id: "3546ADBB26FB9BBF"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "4DD409B27EEF470C"
+				title: "Nickel"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3546ADBB26FB9BBF"]
+			icon: "thermal:nickel_ingot"
+			id: "321E670D1C633E2C"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "6BD8E13B344FCB09"
+				title: "Nickel"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			icon: "geolosys:teallite_ore_sample"
+			id: "7C5840BE387ED962"
+			tasks: [{
+				id: "14288F0A8FEA7C6A"
+				title: "Teallite"
+				type: "checkmark"
+			}]
+			title: "Teallite sample"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C5840BE387ED962"]
+			icon: "thermal:niter_ore"
+			id: "7211FE2C2BFABBFE"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "375A0356366C57C3"
+				title: "Niter"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7211FE2C2BFABBFE"]
+			icon: "thermal:niter_dust"
+			id: "4273B1A4063731AD"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "472A12EDCB6558E1"
+				title: "Niter"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6DD91E86D12BB475"]
+			icon: "geolosys:platinum_ore"
+			id: "0C4B972DD297CF90"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "34CC5547633DC1BC"
+				title: "Platinum"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0C4B972DD297CF90"]
+			icon: "geolosys:platinum_ingot"
+			id: "7C9DBFD2259EC122"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "3432084852E9A6B6"
+				title: "platinum"
+				type: "checkmark"
+			}]
+			title: "Platinum"
+			x: 11.5d
+			y: 23.0d
+		}
+		{
+			icon: "geolosys:quartz_ore_sample"
+			id: "418DAE7A2C292457"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1F02DFBCB834459C"
+				title: "Quartz sample"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["418DAE7A2C292457"]
+			icon: "geolosys:quartz_ore"
+			id: "28A46D510CF6EE43"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "3BB8B1873A8FD9B3"
+				title: "Quartz"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["28A46D510CF6EE43"]
+			icon: "minecraft:quartz"
+			id: "119CD55647B2AA19"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "473E420DF9B01B9E"
+				title: "Quartz"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5521D93FD610EA33"]
+			icon: "minecraft:redstone_ore"
+			id: "5560887BEBC3E08E"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "10EB0B1D8B453E01"
+				title: "Redstone"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5560887BEBC3E08E"]
+			icon: "minecraft:redstone"
+			id: "23A6EF0E27AB507A"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "408A1F29CF32E960"
+				title: "Redstone"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["61B6730F5ADDBC46"]
+			icon: "electrodynamics:orerutile"
+			id: "26672911925DA640"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "6F9FF9A6F0E0AA63"
+				title: "Rutile"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["26672911925DA640"]
+			icon: "electrodynamics:ingottitanium"
+			id: "4F84C1D8D539BE90"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "2008D8E4F01BF7BF"
+				title: "Titanium"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["7C5840BE387ED962"]
+			icon: "thermal:silver_ore"
+			id: "3415BCB1E62BCAF8"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "0C92D55AEEFB380C"
+				title: "Silver"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3415BCB1E62BCAF8"]
+			icon: "thermal:silver_ingot"
+			id: "4DDAEC2C002F17C9"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "721E641931809C28"
+				title: "Silver"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["372E61879A3594AD"]
+			icon: "thermal:sulfur_ore"
+			id: "7FFCE9374910A2C6"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "666E2383745390F7"
+				title: "Sulfur"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 16.5d
+		}
+		{
+			icon: "geolosys:cassiterite_ore_sample"
+			id: "372E61879A3594AD"
+			tasks: [{
+				id: "1C77662C276AE390"
+				title: "Cassiterite sample"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7FFCE9374910A2C6"]
+			icon: "thermal:sulfur_dust"
+			id: "2F3D1A5824AC7610"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "232A50F6EBA27264"
+				title: "Sulfur"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["49E3A1F6D1FE01C9"]
+			icon: "nuclearcraft:thorium_ore"
+			id: "3E8E6D59567AEBE4"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "240A5D83384E9A0E"
+				title: "Thorium"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["3E8E6D59567AEBE4"]
+			icon: "nuclearcraft:thorium_ingot"
+			id: "047AC7B698E24363"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1C02239FC2C5E7A5"
+				title: "Thorium"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["49E3A1F6D1FE01C9"]
+			icon: "thermal:tin_ore"
+			id: "2961180C93F80BA1"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "47BD760FF3FBFC3B"
+				title: "Tin"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2961180C93F80BA1"]
+			icon: "thermal:tin_ingot"
+			id: "0419BC2D1F3E52BA"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "50AE65B972814A4F"
+				title: "Tin"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			icon: "geolosys:autunite_ore_sample"
+			id: "1F2B255C66C8E8AD"
+			tasks: [{
+				id: "51C5973552133AB7"
+				title: "Autunite sample"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F2B255C66C8E8AD"]
+			icon: "immersiveengineering:ore_uranium"
+			id: "52C81C33FAA49AD4"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "6E566A71CF4F2F60"
+				title: "Uranium"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["52C81C33FAA49AD4"]
+			icon: "immersiveengineering:ingot_uranium"
+			id: "4311C832BE6F487A"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "456DF9FF16C3FB29"
+				title: "Uranium"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["5521D93FD610EA33"]
+			icon: "electrodynamics:orevanadinite"
+			id: "48ECE117FA8BA4F3"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "07099864357D78D3"
+				title: "Vanadinite"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["48ECE117FA8BA4F3"]
+			icon: "electrodynamics:ingotvanadium"
+			id: "28310236F205E444"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "1E168FCB113B0313"
+				title: "Vanadium"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 23.0d
+		}
+		{
+			icon: "geolosys:sphalerite_ore_sample"
+			id: "1016EBA22BC8C63B"
+			tasks: [{
+				id: "356DEB1664D3791F"
+				title: "Sphalerite sample"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1016EBA22BC8C63B"]
+			icon: "create:zinc_ore"
+			id: "29281ABA841AF765"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "091F18A3DAECC602"
+				title: "Zinc"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["29281ABA841AF765"]
+			icon: "create:zinc_ingot"
+			id: "12BDEA244C0CA06B"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "502D2479A28906B7"
+				title: "Zinc"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			description: ["The rarety of minerals are sort like you see on this schema. A sample can appears at the surface this mean below it you can found the ore indicate. The prospector help to know what Ore are in underground."]
+			id: "6C3B7D3134F47F0B"
+			tasks: [{
+				id: "260041D140B0E535"
+				title: "start with ore"
+				type: "checkmark"
+			}]
+			title: "Start with new Ore generation"
+			x: -7.5d
+			y: -4.0d
 		}
 	]
 	title: "Ore"
