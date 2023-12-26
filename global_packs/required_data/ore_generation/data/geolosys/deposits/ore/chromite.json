@@ -9,7 +9,7 @@
       "blockStateMatchers": [ "minecraft:stone" ],
       "blocks": {
         "default": [{
-          "block": "'electrodynamics:orechromite'",
+          "block": "electrodynamics:orechromite",
           "chance": 0.3
         },{
           "block": null,

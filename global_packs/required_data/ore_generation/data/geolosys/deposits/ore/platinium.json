@@ -9,7 +9,7 @@
       "blockStateMatchers": [ "minecraft:stone" ],
       "blocks": {
         "default": [{
-          "block": "'geolosys:platinum_ore'",
+          "block": "geolosys:platinum_ore",
           "chance": 0.3
         },{
           "block": null,
