@@ -287,18 +287,18 @@ ServerEvents.recipes(event => {
         }
     )
 
-    event.shaped(
-        Item.of('geolosys:prospectors_pick')
-        [
-            'III',
-            '  S',
-            '  S'
-        ],
-        {
-            I: '#forge:ingots',
-            S: 'minecraft:stick'
-        }
-    )
+    // event.shaped(
+    //     Item.of('geolosys:prospectors_pick')
+    //     [
+    //         'III',
+    //         '  S',
+    //         '  S'
+    //     ],
+    //     {
+    //         I: '#forge:ingots',
+    //         S: 'minecraft:stick'
+    //     }
+    // )
 
     event.remove({ output: 'immersiveengineering:cloche' })
 })
