@@ -30,15 +30,12 @@ options.txt
 rhino.local.properties
 immersive*
 
-!mods/*.jar
-!global_packs/required_data
-
 !config/ae2
+!config/ftbquests
 !config/create-common.toml
 !config/darkness.properties
 !config/dynamiclights_*
 !config/embeddium-options.json
-!config/ftbquests
 !config/geolosys-common.toml
 !config/modernfix-mixins.properties
 !config/nuclearcraft-common.toml
@@ -52,6 +49,9 @@ immersive*
 !defaultconfigs/electrodynamics_ore_config.txt
 !defaultconfigs/ftbessentials-server.snbt
 !defaultconfigs/immersiveengineering-server.toml
+
+!mods/*.jar
+!global_packs/required_data
 
 !kubejs/server*
 !kubejs/asset*
